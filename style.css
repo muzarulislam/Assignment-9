@@ -1,0 +1,155 @@
+.navbar{
+    background: #34495e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.navdiv ul{
+  margin-top: 15px;
+  transition: .5s;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.navdiv ul li a:hover{
+  text-decoration: none;
+  color: red;
+}
+button{
+    background-color: red;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    transition: .5s;
+}
+button a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+button a:hover{
+  text-decoration: none;
+}
+
+/* Home Section */
+.img-d{
+    background-color: #e67e22;
+    width: 100%;
+    height: 500px;
+    padding: 10px 10px;
+}
+
+.img-d:hover{
+    background: black;
+    cursor: pointer;
+    transition: .7s;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: 15px 15px 10px red;
+  }
+
+  /* Title Section  */
+  .title-section{
+    background-color: #34495e;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 40px 0px;
+  }
+  .title-section h2{
+    color: white;
+  }
+  .title-section h4{
+    color: rgb(75, 204, 15);
+  }
+  .title-section p{
+    color: #ffffff;
+  }
+
+  /* Service-Section */
+  .service-section{
+    background-color: #9b59b6;
+    padding: 40px 0px;
+  }
+  .service-section p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .name{
+    text-align: center;
+  }
+  .name h4:first-child{
+    color: green;
+  }
+  .name h4:last-child{
+    color: red;
+  }
+  .name h4:nth-child(2){
+    color: #e67e22;
+  }
+  .name h4:nth-child(3){
+    color: aqua;
+  }
+.name h4:nth-child(4){
+    color: white;
+  }
+  .name h4:nth-child(5){
+    color: #34495e;
+  }
+
+  /* Contact-Section */
+  .contact-section{
+    width: 100%;
+    height: 300px;
+    background-color: #ff9814;
+    display: inline-block;
+  }
+  .line{
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px dashed black;
+    box-shadow: 20px 20px 5px white;
+  }
+  .line:hover{
+    color: #9b59b6;
+  }
+  .line h1{
+    padding-top: 80px;
+  }
+  
+/* Footer Section */
+  .footer h4{
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0px 30px 0px;
+}
+  
+  
+
+
